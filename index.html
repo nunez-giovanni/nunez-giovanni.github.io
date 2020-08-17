@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <style>
+            :root {
+                --nav-background-color: #323332;
+                --nav-text-color: #d5d6d5;
+                --text: rgb(77, 77, 77);
+            }
+            body {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+                min-width: 200px;
+            }
+            nav {
+                background-color: var(--nav-background-color);
+                width: 100%;
+                padding: .05rem;
+            }
+            nav li {
+                color: var(--nav-text-color);
+                position: sticky;
+            }
+
+            ul {
+                list-style-type: none;
+            }
+
+            .nav-list {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .nav-list li {
+                padding: .05rem .65rem;
+            }
+
+            .nav-list a {
+                color: var(--nav-text-color);
+                text-decoration: none;
+            }
+
+            .header {
+                font-size: 19px;
+                line-height: 1.26316;
+                font-weight: 600;
+                letter-spacing: .012em;
+            }
+
+            .header-section {
+                font-size: 24px;
+                line-height: 1.20849;
+                font-weight: 500;
+                letter-spacing: .015em;
+            }
+
+            .header-name {
+                font-size: 30px;
+                line-height: 1.05;
+                font-weight: 500;
+                letter-spacing: .008em;
+            }
+
+            .section-margin {
+                margin: 0 3rem;
+            }
+
+            .section-banner {
+                background: rgb(245,245,247);
+                background: linear-gradient(rgba(255, 255, 255, 1), rgba(241, 241, 241, 1));
+            }
+
+            .hero-image {
+                border-radius: 50%;
+                border: solid 6px #d9d9d9;
+                box-shadow: 5px 5px 5px #c9c2c2;
+                height: 250px;
+            }
+
+            .center-parent {
+                display: flex;
+                justify-content: center;
+            }
+
+            .center-verticaly {
+                align-items: center;
+            }
+
+            .flex-1 {
+                flex-grow: 1;
+            }
+
+            .text {
+                color: var(--text);
+                font-size: 17px;
+                line-height: 1.52947;
+                font-weight: 400;
+                letter-spacing: -.021em;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="https://www.linkedin.com/in/nunezgiovanni/">linkedIn</a></li>
+                <li><a href="mailto:giovanninunez@icloud.com">Email Me</a></li>
+            </ul>
+        </nav>
+        <section class="section-margin">
+            <h1 class="header">Engineer</h1>
+            <hr />
+        </section>
+        <section class="section-margin">
+            <h2 class="header-section">About</h2>
+            <div class="center-parent center-verticaly section-banner" style="padding: 2rem 4rem">
+                <div style="margin: 0 3rem">
+                    <h3 class="header-name">Giovanni Nunez</h3>
+                </div>
+                <img class="hero-image" style="margin: 0 3rem" src="me.jpeg" />
+            </div>
+
+            <div class="center-parent" style="margin-top: 3rem;">
+                <p class="text">
+                    5 years of experience in different roles of the Software Development Life Cycle, including UI design, full-stack development and software testing methodologies.<br>
+                    As a software developer, I have experience building full-stack web applications using technologies such as React, Node, Ruby, and Postgres. Data analysis using PSQL and MYSQL.<br>
+                    As a software automation developer / QA engineer I have automated test in Javascript, Ruby, and Python for grey and white-box testing.<br>
+                    I have experience in black-box testing of Web, API, and Mobile applications in both a waterfall and agile environment.<br> 
+                    Proficient in developing and implementing high-level quality assurance documentation (test plans, test reports, test procedures) from business and functional specifications.<br>
+                    Skillful in different types of testing: functional, regression, unit, exploratory, sanity, GUI, UAT, performance, data, automation, and accessibility testing.<br>
+                </p>
+            </div>
+        </section>
+        <div style="margin-top: 10rem"></div>
+        <section class="section-margin">
+            <h2 class="header-section">Experience</h2>
+            <div class="center-parent center-verticaly section-banner" style="padding: 2rem 4rem">
+                <div style="margin: 0 3rem">
+                    <h3 class="header-name">Apple</h3>
+                </div>
+            </div>
+            <div style="margin: 0 1rem">
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>Software Engineer - Apple News</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        Working on the Apple News & Stocks team. 
+                    </p>
+                </div>
+
+
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>FullStack Software Engineer - Operations</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        I Design and develop Full-stack web application solutions.<br>
+
+                        My responsibilities include:<br><br>
+                        Full-stack development of multiple projects <br>
+                        - client-side UI <br>
+                        - back-end business logic <br>
+                        * Database design<br>
+                        * API design & implementation<br>
+                        * Lead testing of in-house RESTful APIs, including grey-box testing and automated javascript testing.<br>
+                        * perform manual, performance, A11Y, regression, sanity, and UAT testing against our web and macOS applications.<br><br>
+
+                        Technologies used:<br>
+                        - Back-end & Database:<br>
+                        * Ruby / Ruby on Rails<br>
+                        * python<br>
+                        * NodeJS<br>
+                        * PostgresDB<br>
+                        * PSQL<br>
+
+                        - Front-end / client:<br>
+                        * Javascript ( ES6 )<br>
+                        * React<br>
+                        * CSS3<br>
+                        * HTML5<br>
+                        - Testing Frameworks & Tools:<br>
+                        * Mocha <br>
+                        * Chai <br>
+                        * RSpec<br>
+                        * Postman<br>
+
+                        - Bug Tracking & Version Control:<br>
+                        * Apple bug-tracker ( Radar )<br>
+                        * Sentry.io<br>
+                        * Git / Github<br> 
+                    </p>
+                </div>
+
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>FrontEnd Software Engineer - Operations</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        Front-end Development for our internal community platform at Apple.<br>
+
+                        - development of internal web applications using React, Postgres, and Express.<br>
+                        - Consumed RESTful API from React UI. <br>
+                        - Created reusable and extendable components.<br>
+                        Technologies used:<br>
+                        - Javascript ( ES6 )<br>
+                        - ReactJS<br>
+                        - NodeJS<br>
+                        - PostgresDB
+                    </p>
+                </div>
+
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>Software QA Engineer - Operations</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        Testing of functional and non-functional behaviors for Apple's contact center CRM and developing supporting web-based tools.
+                        <br>
+                        - used Javascript, Python, and shell-scripts for automated UI testing.<br>
+                        - Black-box behavioral testing to assess functionality of application. <br>
+                        - Create and execute test plans in scope for each release<br>
+                        Focus on front-end development to create dynamic and interactive web pages using HTML, CSS, Javascript (React.js)
+                    </p>
+                </div>
+
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>Business Analyst  - Operations</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        Review real-time data for discrepancies of customer and contact center engagement.
+                        <br>
+                        front-end development & UI design
+                    </p>
+                </div>
+
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>Software QA Engineer Intern - Photos</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        Quality assurance Engineer for Photos application. 
+                        <br>
+                        Black Box testing of functional and non-functional behaviors, and documentation of software regression.
+                    </p>
+                </div>
+
+                <div class="center-parent" style="margin-top: 3rem; flex-direction: column;">
+                    <div><h4>Certified Mac Technician - Apple Genius</h4></div>
+                    <p class="text" style="margin-top: 0px">
+                        Apple Certified Mac Technician for Apple hardware and software. 
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
